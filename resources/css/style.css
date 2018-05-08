@@ -1,0 +1,209 @@
+/*Core Styles */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background:
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+  background: #f1f1f1;
+}
+
+main {
+  width: 26cm;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f1f1f1;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.btn {
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+}
+
+.btn-margin {
+  margin: 1em;
+}
+
+.btn:hover {
+  background: #aeaeae;
+  color: #333;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+/*Header Showcase */
+
+.showcase {
+  min-height: 600px;
+  text-align: center;
+}
+
+.showcase .navigation {
+  background-color: #fff;
+  }
+
+  .showcase .text-center {
+    width: 26cm;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+
+.showcase nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  }
+
+
+.showcase nav ul li a {
+  text-decoration: none;
+  padding: 0px 20px;
+  margin: 0px 20px;
+  color: #006699;
+  font-size: 1.2em;
+  font-weight: bold;
+  }
+
+.showcase .logo {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px 20px;
+  font-size: 1.5em;
+  color: #2690d4;
+  justify-content: center;
+  }
+
+.showcase .bg-image {
+  position: absolute;
+  background: #333 url('../images/houseSky.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.showcase h1 {
+  padding-bottom: 0px;
+}
+
+.showcase .headerText {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 140px;
+  max-width: 50em;
+}
+
+/*Section A */
+
+.section-a {
+  background: #fff;
+  color: #333;
+  padding: 2em 0;
+  margin-top: 7em;
+}
+
+.section-a p {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Section B */
+
+#section-b {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#section-b .box {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #333;
+  width: 32%;
+  margin: 1em;
+  padding-bottom: 2em;
+}
+
+/*Section C */
+
+.section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
+
+.section-c h2,
+p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Section D Boxes */
+
+#section-d {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0;
+}
+
+
+#section-d .info-box {
+  padding: 2em;
+  color: #fff;
+}
+
+#section-d .info-box.contact {
+  background: #55ACEE;
+}
+
+#section-d .info-box.about {
+  background: #66757F;
+}
+
+/*Footer */
+
+#main-footer {
+  padding: 2em;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+#main-footer p {
+  color: #2690d4;
+}
